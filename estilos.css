@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0a192f;
+    color: #e6f1ff;
+}
+
+/* HEADER */
+header {
+    background-color: #112240;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #acdbd0;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECCIONES GENERALES */
+.contenedor {
+    padding: 20px;
+    margin: 20px;
+    background-color: #112240;
+    border-radius: 8px;
+}
+
+/* TITULOS */
+h2 {
+    color: #bde4db;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+/* TEXTO */
+p {
+    line-height: 1.6;
+}
+
+/* IMAGENES GENERALES */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* TIPOS DE SERVIDORES (ARREGLO PRINCIPAL) */
+.tipo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.tipo img {
+    width: 180px;
+}
+
+.tipo p {
+    margin: 0;
+}
+
+/* SECCIONES CON IMAGEN + TEXTO */
+.contenedor.flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor.flex img {
+    width: 300px;
+}
+
+/* LISTAS */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #020c1b;
+    margin-top: 20px;
+}
